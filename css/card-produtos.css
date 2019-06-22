@@ -1,0 +1,17 @@
+.card-produtos{
+    width:100%;
+    height:250px;
+    background-color:#f1f1f1;
+    display:flex;
+}
+
+
+.rolagem-produtos{
+    height:112px;
+    background-color:blue;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: scroll;
+}
+
