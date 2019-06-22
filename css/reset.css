@@ -4,3 +4,15 @@
     box-sizing:border-box;
     font-family: sans-serif;
 }
+
+a{
+    text-decoration:none;
+}
+
+button{
+    cursor:pointer;
+}
+
+button,input{
+    outline:none;
+}
