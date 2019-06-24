@@ -5,7 +5,7 @@
     display:flex;
 }
 
-
+/* Rolagem horizontal da listagem dos produtos  */
 .rolagem-produtos{
     height:112px;
     background-color:blue;

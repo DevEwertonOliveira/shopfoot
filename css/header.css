@@ -5,6 +5,7 @@ header{
    
 }
 
+/* Organizando o navbar do header */
 header .navbar{
     display:flex;
     justify-content: space-between;
