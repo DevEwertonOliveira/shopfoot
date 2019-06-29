@@ -33,3 +33,10 @@ div h2{
     display:flex;
     align-items: center;
 }
+
+.card-produtos span{
+    display:block;
+    font-size:10pt;
+    text-align:center;
+
+}
