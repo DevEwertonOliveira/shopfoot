@@ -1,4 +1,6 @@
-img{
-    height:32px;
+.rolagem-produtos img{
+    height:60px;
     margin:8px;
+
+    border-radius:75px;
 }

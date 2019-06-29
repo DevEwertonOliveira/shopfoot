@@ -8,7 +8,7 @@
 /* Rolagem horizontal da listagem dos produtos  */
 .rolagem-produtos{
     height:112px;
-    background-color:blue;
+    background-color:white;
     display:flex;
     justify-content: space-between;
     align-items: center;

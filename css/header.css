@@ -10,6 +10,7 @@ header .navbar{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    padding-top:8px;
 }
 
 div{
@@ -19,4 +20,9 @@ div{
 
 div h2{
     font-size: 12pt;
+}
+
+
+.navbar img{
+    height:32px;
 }
