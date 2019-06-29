@@ -5,5 +5,5 @@ class ProdutoService{
         this.peso = "";
         this.tamanho = "";
     }
-
+    
 }
