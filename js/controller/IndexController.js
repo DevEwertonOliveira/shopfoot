@@ -6,6 +6,7 @@ function listagemProdutos(){
         document.getElementById('produtos').innerHTML += 
         /*html*/`
         <div>
+
             <img>${element.img}</img>
             <h1>${element.nome}</h1>
             <p>${element.descricao}</p>
