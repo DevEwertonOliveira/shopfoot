@@ -1,4 +1,7 @@
 class ProdutoService{
+    static buscarProdutos(){
+
+    }
     
 
 }
