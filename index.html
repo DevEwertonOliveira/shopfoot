@@ -16,7 +16,7 @@
 
     <nav class="navbar">
             
-                <img src="img/menu.svg" alt="Menu">
+                <img src="img/menu.svg" alt="Menu" onclick="openDrawer()">
             
                 <h2>Shop Foot</h2>
             
@@ -50,6 +50,36 @@
         </div>          
     </section>
     <hr>
+    <div class="drawer">
+        <div class="drawer-menu">
+            <div class="drawer-menu-close">
+                <img src="img/close.svg" alt="icone de fechar" onclick="closeDrawer()">
+            </div>
+            <div class="drawer-title">
+                ShopFoot
+            </div>
+            <div class="menu-itens">
+                <div class="menu-item">
+                    <a href="index.html">
+                    <div>
+                        <img src="img/home.svg" alt="icone de inicio" >
+                        Home
+                    </div>
+                    </a>
+                </div>
+                <div class="menu-item">
+                    <a href="carrinho.html">
+                        <div>
+                            <img src="img/cart.svg" alt="icone carrinho">
+                            Carrinho
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <div class="drawer-close" onclick="closeDrawer()"></div>
+    </div>
     <main id="produtos" class="card-produtos">
     </main>
     <hr>

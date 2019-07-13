@@ -1,3 +1,7 @@
+let drawer = document.querySelector('.drawer')
+let drawerMenu = document.querySelector('drawer-menu')
+let body = document.querySelector('body')
+
 let produtosCadastrados = ProdutoService.listagemProdutos();
 
 function listagemProdutos(){
@@ -15,4 +19,18 @@ function listagemProdutos(){
         </div>
         `
     }
+}
+
+function openDrawer(){
+    drawer.style.display = 'flex'
+    drawerMenu.style.animation = 'abrir-menu .5s ease-in'
+    body.style.overflowY = 'hidden'
+}
+
+function closeDrawer(){
+    drawerMenu.style.animation = 'fechar-menu .5s ease'
+    setTimeout(() => {
+        drawer.style.display = 'none'
+        body.style.overflowY = 'scroll'
+    }, 500);
 }
