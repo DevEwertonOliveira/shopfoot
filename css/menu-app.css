@@ -4,7 +4,7 @@
     position:absolute;
     width:100%;
     height:100%;
-    background:rgba(0,0,0,.3);
+    background:rgba(0,0,0,.5);
     top:0;
     left:0;
     display:none;
@@ -12,7 +12,7 @@
 }
 
 .drawer .drawer-menu{
-    background-color:rgba(138, 43, 226,.4);
+    background-color:rgba(138, 43, 226,1);
     height:100%;
     width:80%;
     animation:abrir-menu 1s;

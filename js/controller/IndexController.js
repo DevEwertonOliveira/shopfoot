@@ -19,12 +19,12 @@ function listagemProdutos(){
 
 function openDrawer(){
     document.querySelector('.drawer').style.display = 'flex'
-    document.querySelector('drawer-menu').style.animation = 'abrir-menu .5s ease-in'
+    document.querySelector('.drawer-menu').style.animation = 'abrir-menu .5s ease-in'
     document.querySelector('body').style.overflowY = 'hidden'
 }
 
 function closeDrawer(){
-    document.querySelector('drawer-menu').style.animation = 'fechar-menu .5s ease'
+    document.querySelector('.drawer-menu').style.animation = 'fechar-menu .5s ease'
     setTimeout(() => {
         document.querySelector('.drawer').style.display = 'none'
         document.querySelector('body').style.overflowY = 'scroll'
