@@ -3,5 +3,12 @@ class ProdutoService{
         
     }
     
+    static selecionarProdutos(){
+
+    }
+
+    static cadastrar(){
+        
+    }
 
 }
