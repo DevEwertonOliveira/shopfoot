@@ -1,9 +1,8 @@
-footer{
-    width:100%;
-}
-
-footer span{
-
-    display:block;
-    text-align:center;
+.footer {
+    height: 70px;
+    width: 100%;
+    background-color: blue;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }

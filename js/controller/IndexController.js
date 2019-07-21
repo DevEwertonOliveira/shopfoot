@@ -17,6 +17,16 @@ function listagemProdutos(){
     }
 }
 
+function selecionarProduto(i) {
+    ProdutoService.selecionarProduto(produtosCadastrados[i])
+    document.querySelector('body').style.animation = "zoom-in 3s" // aplica a animação do zoom
+    setTimeout(() => {
+        location.href = "produto.html" //mudar de página    
+    }, 750);
+    
+}
+
+
 function openDrawer(){
     document.querySelector('.drawer').style.display = 'flex'
     document.querySelector('.drawer-menu').style.animation = 'abrir-menu .5s ease-in'
