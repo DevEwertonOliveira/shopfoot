@@ -1,6 +1,6 @@
-let produtosCadastrados = ProdutoService.listagemProdutos();
+let produtosCadastrados = ProdutoService.buscarProdutos();
 
-function listagemProdutos(){
+function listarProdutos(){
     for (let i = 0; i < produtosCadastrados.length; i++) {
         const element = produtosCadastrados[i];
         document.getElementById('produtos').innerHTML += 
