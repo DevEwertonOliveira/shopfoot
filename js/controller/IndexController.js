@@ -5,13 +5,19 @@ function listarProdutos(){
         const element = produtosCadastrados[i];
         document.getElementById('produtos').innerHTML += 
         /*html*/`
-        <div>
-
-            <img>${element.img}</img>
+        <div class="produtosTotal">
+            <div class="produtosIndex">
+            <img src="${element.img}">
+            </div>
+            <div class="produtosDescricao">
+            <div>
             <h1>${element.nome}</h1>
+            </div>
             <p>${element.descricao}</p>
-            <span>${element.tamanho}</span>
-            <span>${element.preco}</span>
+            <span>Tamanho: ${element.tamanho}</span>
+            <span>Preço: ${element.preco}</span>
+            <p class="categoria">Categoria: ${element.categoria}</p>
+            </div>
         </div>
         `
     }

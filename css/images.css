@@ -6,3 +6,36 @@
     position:relative;
     margin:50%;
 }
+
+.produtosTotal{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:white;
+}
+
+.produtosIndex img{
+    width:250px;
+    height:250px;
+    margin:5px;
+    padding:13px;
+}
+
+.produtosDescricao{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.produtosDescricao h1{
+    margin-bottom:60px;
+}
+
+.produtosDescricao span{
+    margin-bottom:1px;
+    font-size:11pt;
+}
+
+.produtosDescricao p{
+    margin-bottom:15px;
+}
