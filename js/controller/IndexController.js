@@ -14,8 +14,8 @@ function listarProdutos(){
             <h1>${element.nome}</h1>
             </div>
             <p>${element.descricao}</p>
-            <span>Tamanho: ${element.tamanho}</span>
-            <span>Preço: ${element.preco}</span>
+            <p>Tamanho: ${element.tamanho}</p>
+            <p>Preço: ${element.preco}</p>
             <p class="categoria">Categoria: ${element.categoria}</p>
             </div>
         </div>

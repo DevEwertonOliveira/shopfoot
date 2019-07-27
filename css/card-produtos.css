@@ -16,6 +16,7 @@
     overflow-x: scroll;
     overflow-y: hidden;
     white-space:nowrap;
+    cursor:pointer;
 }
 
 h1{
